@@ -13,6 +13,7 @@ import freeVisitForm from "./modules/freeVisitForm";
 import callbackForm from "./modules/callbackForm";
 import gift from "./modules/gift";
 import mainSlider from "./modules/mainSlider";
+import gallerySlider from "./modules/gallerySlider";
 
 //Drop-down Menu
 dropDownMenu();
@@ -24,5 +25,7 @@ callbackForm();
 gift();
 //Main Slider
 mainSlider();
+//Gallery Slider
+gallerySlider();
 
 
