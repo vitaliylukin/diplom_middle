@@ -8,9 +8,9 @@ import 'fetch-polyfill';
 /*import elementClosest from 'element-closest';
 elementClosest(window);*/
 
-import scrollAnchors from "./modules/scrollAnchors";
+import dropDownMenu from "./modules/dropDownMenu";
 
-//Scroll Anchors
-scrollAnchors();
+//Drop-down Menu
+dropDownMenu();
 
 
