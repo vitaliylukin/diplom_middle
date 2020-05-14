@@ -11,6 +11,7 @@ elementClosest(window);*/
 import dropDownMenu from "./modules/dropDownMenu";
 import freeVisitForm from "./modules/freeVisitForm";
 import callbackForm from "./modules/callbackForm";
+import gift from "./modules/gift";
 
 //Drop-down Menu
 dropDownMenu();
@@ -18,5 +19,7 @@ dropDownMenu();
 freeVisitForm();
 //Callback Form
 callbackForm();
+//Modal Gift
+gift();
 
 
