@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d77e9f-4310-4f1c-a76a-d2b4b15b36b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/gift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/mainSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -32,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-lesson-28/src/modules/slider.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589438582460</updated>
-      <workItem from="1589438583545" duration="17987000" />
+      <workItem from="1589438583545" duration="22823000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1589438661456</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589458920001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix gift modal">
+      <created>1589460745347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589460745347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="fix dropDown menu" />
     <MESSAGE value="fix modal windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix modal windows" />
+    <MESSAGE value="fix gift modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gift modal" />
   </component>
 </project>

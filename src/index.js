@@ -12,6 +12,7 @@ import dropDownMenu from "./modules/dropDownMenu";
 import freeVisitForm from "./modules/freeVisitForm";
 import callbackForm from "./modules/callbackForm";
 import gift from "./modules/gift";
+import mainSlider from "./modules/mainSlider";
 
 //Drop-down Menu
 dropDownMenu();
@@ -21,5 +22,7 @@ freeVisitForm();
 callbackForm();
 //Modal Gift
 gift();
+//Main Slider
+mainSlider();
 
 
