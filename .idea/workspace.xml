@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d77e9f-4310-4f1c-a76a-d2b4b15b36b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/toggleMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/gallerySlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/gallerySlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/sliderCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/sliderCarousel.js" afterDir="false" />
     </list>
@@ -69,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589438582460</updated>
       <workItem from="1589438583545" duration="29380000" />
-      <workItem from="1589525690554" duration="28162000" />
+      <workItem from="1589525690554" duration="31186000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1589438661456</created>
@@ -141,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589551390825</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix toggle menu">
+      <created>1589559207107</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589559207107</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +177,7 @@
     <MESSAGE value="fix gallery slider" />
     <MESSAGE value="fix bug on gallery slider" />
     <MESSAGE value="fix carousel slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix carousel slider" />
+    <MESSAGE value="fix toggle menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix toggle menu" />
   </component>
 </project>

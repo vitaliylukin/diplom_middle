@@ -118,12 +118,10 @@ export default class SliderCarousel  {
 
         this.prev.className = 'slider-arrow prev';
         const spanPrev =  document.createElement('span');
-        spanPrev.textContent = '<';
         this.prev.appendChild(spanPrev);
 
         this.next.className = 'slider-arrow next';
         const spanNext =  document.createElement('span');
-        spanNext.textContent = '>';
         this.next.appendChild(spanNext);
 
         this.main.appendChild(this.prev);

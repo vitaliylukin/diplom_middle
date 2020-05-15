@@ -1396,9 +1396,7 @@ nav.popup-menu .close-menu-btn img {
     text-align: center;
     width: 36px;
     height: 37px;
-    font-size: 22px;
-    line-height: 37px;
-    background-color: #f4c71b;
+    background: url("../images/arrow-left.png") no-repeat #f4c71b 14px center;
     border-radius: 50%;
 }
 
@@ -1408,6 +1406,10 @@ nav.popup-menu .close-menu-btn img {
 
 .glo-slider .slider-arrow.next {
     right: 2px
+}
+
+.glo-slider .slider-arrow.next span {
+    background: url("../images/arrow-right.png") no-repeat #f4c71b 14px center;
 }
 
 #gallery {
@@ -1451,9 +1453,7 @@ nav.popup-menu .close-menu-btn img {
     text-align: center;
     width: 36px;
     height: 37px;
-    font-size: 22px;
-    line-height: 37px;
-    background-color: #f4c71b;
+    background: url("../images/arrow-left.png") no-repeat #f4c71b 14px center;
     border-radius: 50%;
 }
 
@@ -1463,6 +1463,10 @@ nav.popup-menu .close-menu-btn img {
 
 #gallery .gallery-slider .slider-arrow.next {
     right: 0
+}
+
+#gallery .gallery-slider .slider-arrow.next span {
+    background: url("../images/arrow-right.png") no-repeat #f4c71b 14px center;
 }
 
 #gallery .gallery-slider .slider-dots {
