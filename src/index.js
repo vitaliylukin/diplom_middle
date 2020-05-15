@@ -14,6 +14,9 @@ import callbackForm from "./modules/callbackForm";
 import gift from "./modules/gift";
 import mainSlider from "./modules/mainSlider";
 import gallerySlider from "./modules/gallerySlider";
+import toggleMenu from "./modules/toggleMenu";
+
+
 import SliderCarousel from "./modules/sliderCarousel";
 
 
@@ -29,6 +32,11 @@ gift();
 mainSlider();
 //Gallery Slider
 gallerySlider();
+//Toggle Menu
+toggleMenu();
+
+
+
 
 //Slider Carousel
 const carousel = new SliderCarousel({

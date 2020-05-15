@@ -25,7 +25,7 @@ const gallerySlider = () => {
     //Create prev arrow
     const arrowPrev = document.createElement('div');
     const spanPrev =  document.createElement('span');
-    spanPrev.textContent = '<';
+    spanPrev.textContent = '<'; //прописываем галочку
     arrowPrev.classList.add('slider-arrow');
     arrowPrev.classList.add('prev');
     slider.appendChild(arrowPrev);

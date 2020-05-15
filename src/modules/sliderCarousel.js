@@ -128,32 +128,6 @@ export default class SliderCarousel  {
 
         this.main.appendChild(this.prev);
         this.main.appendChild(this.next);
-
-        const style = document.createElement('style');
-        style.textContent = `
-            .glo-slider__prev,
-            .glo-slider__next {
-                margin: 0 10px;
-                background: transparent;
-                border: 20px solid transparent; 
-                cursor: pointer;
-            }
-            .glo-slider__prev {
-                border-right-color: #19b5fe;
-            }
-            .glo-slider__next {
-                border-left-color: #19b5fe;
-            }
-            .glo-slider__prev:hover,
-            .glo-slider__next:hover,
-            .glo-slider__prev:focus,
-            .glo-slider__next:focus {
-                background: transparent;
-                outline: transparent;
-            }
-        `;
-
-        document.head.appendChild(style);
     }
 
     //метод, который адаптирует слайдер

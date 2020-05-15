@@ -2225,10 +2225,6 @@ p.personal-data input[type=checkbox]:checked + label:before {
         display: none !important
     }
 
-    .hidden-large {
-        display: block
-    }
-
     header {
         margin-bottom: 0
     }
