@@ -14,7 +14,8 @@ import callbackForm from "./modules/callbackForm";
 import gift from "./modules/gift";
 import mainSlider from "./modules/mainSlider";
 import gallerySlider from "./modules/gallerySlider";
-import carouselSlider from "./modules/carouselSlider";
+import SliderCarousel from "./modules/sliderCarousel";
+
 
 //Drop-down Menu
 dropDownMenu();
@@ -28,6 +29,34 @@ gift();
 mainSlider();
 //Gallery Slider
 gallerySlider();
-//Carousel Slider
-carouselSlider();
+
+//Slider Carousel
+const carousel = new SliderCarousel({
+    main: '#services .wrapper',
+    wrap: '.services-slider',
+    slidesToShow: 5,
+    infinity: true,
+    responsive: [
+        {
+            breakpoint: 1240,
+            slidesToShow: 4
+        },
+        {
+            breakpoint: 1024,
+            slidesToShow: 3
+        },
+        {
+            breakpoint: 768,
+            slidesToShow: 2
+        },
+        {
+            breakpoint: 576,
+            slidesToShow: 1
+        }
+    ]
+});
+
+carousel.init();
+
+
 

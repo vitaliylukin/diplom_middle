@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d77e9f-4310-4f1c-a76a-d2b4b15b36b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/carouselSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sliderCarousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/gallerySlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/gallerySlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/carouselSlider.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +30,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bt5WmDbl5rWOvufblBdKKQEFKO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-lesson-28/src/index.js" />
@@ -64,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589438582460</updated>
       <workItem from="1589438583545" duration="29380000" />
-      <workItem from="1589525690554" duration="7896000" />
+      <workItem from="1589525690554" duration="20173000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1589438661456</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589532998484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix bug on gallery slider">
+      <created>1589535657055</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589535657055</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="fix dropDown menu" />
     <MESSAGE value="fix modal windows" />
@@ -144,6 +155,7 @@
     <MESSAGE value="fix main slider" />
     <MESSAGE value="start gallery slider" />
     <MESSAGE value="fix gallery slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix gallery slider" />
+    <MESSAGE value="fix bug on gallery slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug on gallery slider" />
   </component>
 </project>

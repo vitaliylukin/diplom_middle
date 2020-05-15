@@ -1348,15 +1348,16 @@ nav.popup-menu .close-menu-btn img {
 
 .services-slider {
     display: flex;
+    position: relative;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px
+   /* padding-left: 15px;
+    padding-right: 15px*/
 }
 
 .services-slider .slide {
     text-align: center;
-    margin-right: 6px;
-    margin-left: 6px;
+    /*margin-right: 6px;
+    margin-left: 6px;*/
     width: 210px
 }
 
@@ -1382,29 +1383,30 @@ nav.popup-menu .close-menu-btn img {
     margin: 0 auto
 }
 
-.services-slider .slider-arrow {
+.glo-slider .slider-arrow {
     position: absolute;
-    top: 75px;
+    top: 150px;
     margin-top: -18px;
     z-index: 100;
     cursor: pointer
 }
 
-.services-slider .slider-arrow span {
+.glo-slider .slider-arrow span {
     display: block;
+    text-align: center;
     width: 36px;
     height: 37px;
+    font-size: 22px;
+    line-height: 37px;
     background-color: #f4c71b;
     border-radius: 50%;
-    text-align: center;
-    padding-top: 11px
 }
 
-.services-slider .slider-arrow.prev {
+.glo-slider .slider-arrow.prev {
     left: 2px
 }
 
-.services-slider .slider-arrow.next {
+.glo-slider .slider-arrow.next {
     right: 2px
 }
 
