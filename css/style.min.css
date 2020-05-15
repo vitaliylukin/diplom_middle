@@ -1417,18 +1417,18 @@ nav.popup-menu .close-menu-btn img {
 }
 
 #gallery .gallery-slider {
+    text-align: center;
     position: relative;
-    padding-left: 75px;
-    padding-right: 75px;
     max-width: 900px;
     margin: 0 auto;
-    text-align: center
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 #gallery .gallery-slider .slide {
     display: none;
-    margin: 0 auto !important;
     width: 100%;
+    margin: 0 auto !important;
 }
 
 #gallery .gallery-slider .slide.active {
@@ -1439,18 +1439,20 @@ nav.popup-menu .close-menu-btn img {
     position: absolute;
     top: 50%;
     margin-top: -18px;
+    text-decoration: none;
     z-index: 100;
-    cursor: pointer
+    cursor: pointer;
 }
 
 #gallery .gallery-slider .slider-arrow span {
     display: block;
+    text-align: center;
     width: 36px;
     height: 37px;
+    font-size: 22px;
+    line-height: 37px;
     background-color: #f4c71b;
     border-radius: 50%;
-    text-align: center;
-    padding-top: 11px
 }
 
 #gallery .gallery-slider .slider-arrow.prev {
@@ -1469,14 +1471,14 @@ nav.popup-menu .close-menu-btn img {
 }
 
 #gallery .gallery-slider .slider-dots .dot {
-    cursor: pointer;
-    height: 7px;
-    width: 30px;
-    margin: 0 10px;
     display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin: 0 10px;
     background: #fff;
     -webkit-transition: #fff, -webkit-transform .4s;
     transition: #fff, transform .4s, -webkit-transform .4s;
+    cursor: pointer;
 }
 
 #gallery .gallery-slider .slider-dots .dot.active {
@@ -2284,7 +2286,8 @@ p.personal-data input[type=checkbox]:checked + label:before {
         padding-right: 10px
     }
 
-    #gallery .gallery-slider .slider-arrow.next, #gallery .gallery-slider .slider-arrow.prev {
+    #gallery .gallery-slider .slider-arrow.next, #gallery .gallery-slider .slider-arrow.prev,
+    #gallery .gallery-slider .slider-dots {
         display: none !important
     }
 
