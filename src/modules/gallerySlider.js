@@ -1,8 +1,44 @@
 const gallerySlider = () => {
 
     const slider =  document.querySelector('.gallery-slider'),
-        slide = slider.querySelectorAll('.slide'),
-        dot = slider.querySelectorAll('.dot');
+        slide = slider.querySelectorAll('.slide');
+
+    //Create dots list
+    const tabDots = document.createElement('ul');
+    tabDots.classList.add('slider-dots');
+    slider.appendChild(tabDots);
+
+    //Create dots
+    let dot;
+
+    for (let i = 0; i < slide.length; i++) {
+        let newDot = document.createElement('li');
+        newDot.classList.add('dot');
+        tabDots.appendChild(newDot);
+        if (i === 0) {
+            newDot.classList.add('active');
+        }
+    }
+
+    dot = document.querySelectorAll('.dot');
+
+    //Create prev arrow
+    const arrowPrev = document.createElement('div');
+    const spanPrev =  document.createElement('span');
+    spanPrev.textContent = '<';
+    arrowPrev.classList.add('slider-arrow');
+    arrowPrev.classList.add('prev');
+    slider.appendChild(arrowPrev);
+    arrowPrev.appendChild(spanPrev);
+
+    //Create next arrow
+    const arrowNext = document.createElement('div');
+    const spanNext=  document.createElement('span');
+    spanNext.textContent = '>';
+    arrowNext.classList.add('slider-arrow');
+    arrowNext.classList.add('next');
+    slider.appendChild(arrowNext);
+    arrowNext.appendChild(spanNext);
 
     let currentSlide = 0,
         interval;
@@ -50,9 +86,9 @@ const gallerySlider = () => {
         prevSlide(slide, currentSlide, 'active');
         prevSlide(dot, currentSlide, 'active');
 
-        if (target.matches('#arrow-right span')) {
+        if (target.matches('.slider-arrow.next span')) {
             currentSlide++;
-        } else if (target.matches('#arrow-left span')) {
+        } else if (target.matches('.slider-arrow.prev span')) {
             currentSlide--;
         } else if (target.matches('.dot')) {
             dot.forEach((elem, index) => {

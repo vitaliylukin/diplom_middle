@@ -14,6 +14,7 @@ import callbackForm from "./modules/callbackForm";
 import gift from "./modules/gift";
 import mainSlider from "./modules/mainSlider";
 import gallerySlider from "./modules/gallerySlider";
+import carouselSlider from "./modules/carouselSlider";
 
 //Drop-down Menu
 dropDownMenu();
@@ -27,5 +28,6 @@ gift();
 mainSlider();
 //Gallery Slider
 gallerySlider();
-
+//Carousel Slider
+carouselSlider();
 
