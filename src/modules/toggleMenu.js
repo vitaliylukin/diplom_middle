@@ -8,17 +8,17 @@ const toggleMenu = () => {
     /*Fix Menu */
     window.addEventListener('scroll', () => {
         if(document.documentElement.clientWidth < 768 && document.documentElement.scrollTop > topMenu.scrollTop) {
-            topMenu.style.position = "fixed";
-            topMenu.style.top = "0px";
+            topMenu.style.position = 'fixed';
+            topMenu.style.top = '0px';
             try {
-                fixedGift.style.right = "55px";
+                fixedGift.style.right = '55px';
             } catch (e) {
 
             }
         } else {
-            topMenu.style.position = "inherit";
+            topMenu.style.position = '';
             try {
-                fixedGift.style.right = "20px";
+                fixedGift.style.right = '20px';
             } catch (e) {
 
             }

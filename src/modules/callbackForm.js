@@ -1,5 +1,8 @@
 const callbackForm = () => {
 
+    //Mask for phone
+    maskPhone('#callback_form1-phone');
+
     const popUp = document.getElementById('callback_form'),
         popUpBtn = document.querySelector('button[data-popup="#callback_form"]');
 

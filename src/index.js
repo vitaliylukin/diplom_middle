@@ -15,6 +15,7 @@ import gift from "./modules/gift";
 import mainSlider from "./modules/mainSlider";
 import gallerySlider from "./modules/gallerySlider";
 import toggleMenu from "./modules/toggleMenu";
+import sendForm from "./modules/sendForm";
 
 
 import SliderCarousel from "./modules/sliderCarousel";
@@ -34,6 +35,8 @@ mainSlider();
 gallerySlider();
 //Toggle Menu
 toggleMenu();
+//Send Form
+sendForm();
 
 
 

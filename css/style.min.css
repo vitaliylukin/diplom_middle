@@ -1343,7 +1343,8 @@ nav.popup-menu .close-menu-btn img {
     border-radius: 22px;
     border: none;
     padding: 5px 5px 5px 18px;
-    margin-right: 5px
+    margin-right: 5px;
+    outline: none;
 }
 
 .services-slider {
@@ -2033,7 +2034,14 @@ p.personal-data label {
 }
 
 p.personal-data input[type='checkbox'] {
-    display: none
+    vertical-align: top;
+    width: 21px !important;
+    height: 21px !important;
+    margin-left: -29px;
+    margin-right: 8px !important;
+    border: 1px solid #000 !important;
+    border-radius: 2px !important;
+    background-color: #fff;
 }
 
 p.personal-data input[type=checkbox]:not(checked) + label:before {
