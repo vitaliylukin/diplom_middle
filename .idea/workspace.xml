@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d77e9f-4310-4f1c-a76a-d2b4b15b36b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maskPhone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/sendForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mozaika.html" beforeDir="false" afterPath="$PROJECT_DIR$/mozaika.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schelkovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/schelkovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callbackForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callbackForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/freeVisitForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/freeVisitForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/toggleMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/toggleMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/sendForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/sendForm.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +66,8 @@
       <updated>1589438582460</updated>
       <workItem from="1589438583545" duration="29380000" />
       <workItem from="1589525690554" duration="31448000" />
-      <workItem from="1589626894212" duration="24094000" />
+      <workItem from="1589626894212" duration="24222000" />
+      <workItem from="1589705560936" duration="2995000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1589438661456</created>
@@ -163,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589562621702</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix form on main page">
+      <created>1589657804262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589657804262</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +193,7 @@
     <MESSAGE value="fix bug on gallery slider" />
     <MESSAGE value="fix carousel slider" />
     <MESSAGE value="fix toggle menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix toggle menu" />
+    <MESSAGE value="fix form on main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix form on main page" />
   </component>
 </project>

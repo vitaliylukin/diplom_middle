@@ -63,6 +63,7 @@ const sendForm = () => {
         });
     };
 
+    //Check input by russian words
     let checkInputByRussianWords = document.querySelectorAll('[name="name"], [name="user_message"]');
     checkInputByRussianWords.forEach((elem) => {
         elem.addEventListener('input', function() {
@@ -70,7 +71,7 @@ const sendForm = () => {
         })
     });
 
-    //Проверяем инпуты на число
+    //Check input by number
     const checkInputByNumbers = document.querySelectorAll('[name="phone"]');
     checkInputByNumbers.forEach((elem) => {
         elem.addEventListener('input', function() {
@@ -84,7 +85,6 @@ const sendForm = () => {
 
             event.preventDefault(); //запрещаем перезагрузку страницы
             elem.appendChild(statusMessage); //помещаем на страницу statusMessage
-            /*statusMessage.classList.add('sk-spinner-pulse');*/
 
             //перед отправкой данных нужно их получить с помощью FormData
             const formData = new FormData(elem); //получаем все данные из нашей формы
@@ -101,12 +101,10 @@ const sendForm = () => {
                         /*если статус не 200, то обрабатываем запрос как ошибку*/
                         throw new Error('status network not 200')
                     }
-                   /* statusMessage.classList.remove('sk-spinner-pulse');*/
                     elem.removeChild(statusMessage);
                     successMessage();
                 })
                 .catch((error) => {
-                    /*statusMessage.classList.remove('sk-spinner-pulse');*/
                     elem.removeChild(statusMessage);
                     errorMessage();
                     console.log(error);
