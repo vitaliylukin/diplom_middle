@@ -3,8 +3,7 @@ const mainSlider = () => {
     const slider =  document.querySelector('.main-slider'),
         slide = document.querySelectorAll('.main-slider > .slide');
 
-    let currentSlide = 0,
-        interval;
+    let currentSlide = 0;
 
     const autoPlaySlide = () => {
         slide[currentSlide].style.display = 'none';
@@ -15,25 +14,11 @@ const mainSlider = () => {
         slide[currentSlide].style.display = 'flex';
     };
 
-    const startSlide = (time = 3000) => {
-        interval = setInterval(autoPlaySlide, time);
+    const startSlide = (time = 2000) => {
+        setInterval(autoPlaySlide, time);
     };
 
-    const stopSlide = () => {
-        clearInterval(interval);
-    };
-
-    //Наведение мышки на стрелку или точку
-    slider.addEventListener('mouseover',() => {
-        stopSlide();
-    });
-
-    //Убрать мышку со стрелки или точки
-    slider.addEventListener('mouseout',() => {
-        startSlide();
-    });
-
-    startSlide(3000);
+    startSlide(2000);
 
 };
 
