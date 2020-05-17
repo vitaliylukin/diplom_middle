@@ -16,6 +16,7 @@ import mainSlider from "./modules/mainSlider";
 import gallerySlider from "./modules/gallerySlider";
 import toggleMenu from "./modules/toggleMenu";
 import sendForm from "./modules/sendForm";
+import calc from "./modules/calc";
 
 
 import SliderCarousel from "./modules/sliderCarousel";
@@ -37,6 +38,8 @@ gallerySlider();
 toggleMenu();
 //Send Form
 sendForm();
+//Calculator
+calc();
 
 
 
