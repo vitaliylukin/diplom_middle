@@ -3,6 +3,7 @@ const sendForm = () => {
     //Mask for phone
     maskPhone('#phone');
     maskPhone('#callback_footer_form-phone');
+    maskPhone('#callback_form-phone');
 
     const form = document.querySelectorAll('form'),
         allInputs = document.querySelectorAll('form input'),

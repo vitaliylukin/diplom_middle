@@ -1569,7 +1569,7 @@ nav.popup-menu .close-menu-btn img {
 }
 
 #card_order p.personal-data input[type=checkbox] {
-    display: none
+    height: 23px !important;
 }
 
 #card_order p.personal-data label {
