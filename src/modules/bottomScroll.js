@@ -5,8 +5,6 @@ const bottomScroll = () => {
 
     const height = headerMain.scrollHeight;
 
-    console.log(height);
-
     window.addEventListener('scroll', () => {
         if (document.documentElement.scrollTop > height) {
             toTop.style.display = 'block';

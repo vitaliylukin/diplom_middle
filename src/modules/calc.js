@@ -7,41 +7,47 @@ const calc = () => {
         fourthClub = document.getElementById('m4'),
         priceTotal = document.getElementById('price-total'),
         cardMozaika = document.getElementById('card_leto_mozaika'),
-        cardSchelkovo = document.getElementById('card_leto_schelkovo');
+        promoCode = document.querySelector('.price-message > input');
 
-    let total = 1999;
+    let total;
 
-
-    //Функция, которая считает итоговую цену
-    cardOrder.addEventListener('click', (event) => {
-        const target = event.target;
-
+    const countSum = () => {
         if (cardMozaika.checked === true) {
-            if (target === firstClub) {
+            if (firstClub.checked === true) {
                 total = 1999;
-            } else if (target === secondClub) {
+            } else if (secondClub.checked === true) {
                 total = 9900;
-            } else if (target === thirdClub) {
+            } else if (thirdClub.checked === true) {
                 total = 13900;
-            } else if (target === fourthClub) {
+            } else if (fourthClub.checked === true) {
                 total = 19900;
             }
-        } else if (cardSchelkovo.checked === true) {
-            if (target === firstClub) {
+        } else if (cardMozaika.checked === false) {
+            if (firstClub.checked === true) {
                 total = 2999;
-            } else if (target === secondClub) {
+            } else if (secondClub.checked === true) {
                 total = 14990;
-            } else if (target === thirdClub) {
+            } else if (thirdClub.checked === true) {
                 total = 21990;
-            } else if (target === fourthClub) {
+            } else if (fourthClub.checked === true) {
                 total = 24990;
             }
         }
 
-        priceTotal.textContent = total;
+        if (promoCode.value === 'ТЕЛО2020') {
+            const percent = total / 100 * 30;
+            total -= percent;
+            total = Math.ceil(total);
+            priceTotal.textContent =total;
+        } else {
+            priceTotal.textContent = total;
+        }
 
+    };
+
+    cardOrder.addEventListener('change', () => {
+        countSum();
     });
-
 
 };
 
