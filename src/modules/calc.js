@@ -9,54 +9,39 @@ const calc = () => {
         cardMozaika = document.getElementById('card_leto_mozaika'),
         cardSchelkovo = document.getElementById('card_leto_schelkovo');
 
+    let total = 1999;
 
-    let total = 2999;
 
     //Функция, которая считает итоговую цену
     cardOrder.addEventListener('click', (event) => {
         const target = event.target;
 
-        const countFirst = () => {
+        if (cardMozaika.checked === true) {
             if (target === firstClub) {
                 total = 1999;
-            }
-            if (target === secondClub) {
+            } else if (target === secondClub) {
                 total = 9900;
-            }
-            if (target === thirdClub) {
+            } else if (target === thirdClub) {
                 total = 13900;
-            }
-            if (target === fourthClub) {
+            } else if (target === fourthClub) {
                 total = 19900;
             }
-
-        };
-
-        const countSecond = () => {
+        } else if (cardSchelkovo.checked === true) {
             if (target === firstClub) {
                 total = 2999;
-            }
-            if (target === secondClub) {
+            } else if (target === secondClub) {
                 total = 14990;
-            }
-            if (target === thirdClub) {
+            } else if (target === thirdClub) {
                 total = 21990;
-            }
-            if (target === fourthClub) {
+            } else if (target === fourthClub) {
                 total = 24990;
             }
-
-        };
-
-        if (cardMozaika.checked === true) {
-            countFirst();
-        } else if (cardSchelkovo.checked === true) {
-            countSecond();
         }
 
         priceTotal.textContent = total;
 
     });
+
 
 };
 

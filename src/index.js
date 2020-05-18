@@ -17,6 +17,7 @@ import gallerySlider from "./modules/gallerySlider";
 import toggleMenu from "./modules/toggleMenu";
 import sendForm from "./modules/sendForm";
 import calc from "./modules/calc";
+import bottomScroll from "./modules/bottomScroll";
 
 
 import SliderCarousel from "./modules/sliderCarousel";
@@ -40,6 +41,8 @@ toggleMenu();
 sendForm();
 //Calculator
 calc();
+//Bottom Scroll
+bottomScroll();
 
 
 

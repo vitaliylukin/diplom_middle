@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d77e9f-4310-4f1c-a76a-d2b4b15b36b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/bottomScroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/mainSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mainSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/calc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/toggleMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/toggleMenu.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +39,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-lesson-28/src/modules/calc.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-lesson-28/src/modules/toggleMenu.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,7 +71,10 @@
       <workItem from="1589438583545" duration="29380000" />
       <workItem from="1589525690554" duration="31448000" />
       <workItem from="1589626894212" duration="24222000" />
-      <workItem from="1589705560936" duration="23011000" />
+      <workItem from="1589705560936" duration="23062000" />
+      <workItem from="1589732877287" duration="2340000" />
+      <workItem from="1589792018690" duration="405000" />
+      <workItem from="1589792439215" duration="4968000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1589438661456</created>
@@ -183,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589711088371</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix forms">
+      <created>1589731638498</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589731638498</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +230,7 @@
     <MESSAGE value="fix toggle menu" />
     <MESSAGE value="fix form on main page" />
     <MESSAGE value="fix form 3, fix main slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix form 3, fix main slider" />
+    <MESSAGE value="fix forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix forms" />
   </component>
 </project>
