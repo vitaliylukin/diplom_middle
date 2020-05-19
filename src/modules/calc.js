@@ -38,7 +38,7 @@ const calc = () => {
             const percent = total / 100 * 30;
             total -= percent;
             total = Math.ceil(total);
-            priceTotal.textContent =total;
+            priceTotal.textContent = total;
         } else {
             priceTotal.textContent = total;
         }
