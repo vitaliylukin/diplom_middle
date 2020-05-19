@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d77e9f-4310-4f1c-a76a-d2b4b15b36b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maskPhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/maskPhone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/bottomScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/bottomScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/scrollAnchors.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/sendForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/sendForm.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-landing-project/plugins/validator/validator.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-lesson-28/src/modules/sendForm.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -89,7 +88,7 @@
       <workItem from="1589732877287" duration="2340000" />
       <workItem from="1589792018690" duration="405000" />
       <workItem from="1589792439215" duration="14142000" />
-      <workItem from="1589875843875" duration="1846000" />
+      <workItem from="1589875843875" duration="13841000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1589438661456</created>
@@ -231,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589808460603</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix bug">
+      <created>1589877780404</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1589877780404</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix bug">
+      <created>1589877834896</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589877834896</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +282,7 @@
     <MESSAGE value="fix forms" />
     <MESSAGE value="fix bottomScroll button" />
     <MESSAGE value="fix calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix calculator" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
 </project>

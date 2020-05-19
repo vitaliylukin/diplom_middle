@@ -1613,7 +1613,7 @@ nav.popup-menu .close-menu-btn img {
     border: 1px solid #b7b7b7;
     background-color: #fff;
     padding-left: 25px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 #card_order p.submit {
@@ -2097,6 +2097,10 @@ p.personal-data input[type=checkbox]:checked + label:before {
     color: #fff;
     font-weight: 500;
     margin-top: 30px
+}
+
+.invalid_phone {
+    border: 1px solid red !important;
 }
 
 @media only screen and (max-width: 1199px) {

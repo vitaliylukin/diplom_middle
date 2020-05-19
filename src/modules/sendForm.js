@@ -26,12 +26,18 @@ const sendForm = () => {
                 popUpThanks.style.display = 'none';
                 popUpCallback.style.display = 'none';
                 popUpVisit.style.display = 'none';
+                allInputs.forEach((elem) => {
+                    elem.value = '';
+                });
             } else {
                 target = target.closest('.form-wrapper');
                 if (!target) {
                     popUpThanks.style.display = 'none';
                     popUpCallback.style.display = 'none';
                     popUpVisit.style.display = 'none';
+                    allInputs.forEach((elem) => {
+                        elem.value = '';
+                    });
                 }
             }
 
@@ -52,12 +58,18 @@ const sendForm = () => {
                 popUpThanks.style.display = 'none';
                 popUpCallback.style.display = 'none';
                 popUpVisit.style.display = 'none';
+                allInputs.forEach((elem) => {
+                    elem.value = '';
+                });
             } else {
                 target = target.closest('.form-wrapper');
                 if (!target) {
                     popUpThanks.style.display = 'none';
                     popUpCallback.style.display = 'none';
                     popUpVisit.style.display = 'none';
+                    allInputs.forEach((elem) => {
+                        elem.value = '';
+                    });
                 }
             }
 
@@ -111,10 +123,6 @@ const sendForm = () => {
                     console.log(error);
                 });
         });
-    });
-
-    allInputs.forEach((elem) => {
-        elem.value = '';
     });
 
     /*Функция запроса на сервер*/
