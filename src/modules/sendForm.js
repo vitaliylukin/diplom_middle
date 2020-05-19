@@ -65,7 +65,7 @@ const sendForm = () => {
     };
 
     //Check input by russian words
-    let checkInputByRussianWords = document.querySelectorAll('[name="name"], [name="user_message"]');
+    let checkInputByRussianWords = document.querySelectorAll('[name="name"]');
     checkInputByRussianWords.forEach((elem) => {
         elem.addEventListener('input', function() {
             this.value = this.value.replace(/[^А-Яа-яЁё0-9 ]/, '');
@@ -110,11 +110,11 @@ const sendForm = () => {
                     errorMessage();
                     console.log(error);
                 });
-
-            allInputs.forEach((elem) => {
-                elem.value = '';
-            });
         });
+    });
+
+    allInputs.forEach((elem) => {
+        elem.value = '';
     });
 
     /*Функция запроса на сервер*/

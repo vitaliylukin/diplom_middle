@@ -19,9 +19,7 @@ import sendForm from "./modules/sendForm";
 import calc from "./modules/calc";
 import bottomScroll from "./modules/bottomScroll";
 
-
 import SliderCarousel from "./modules/sliderCarousel";
-
 
 //Drop-down Menu
 dropDownMenu();
@@ -43,9 +41,6 @@ sendForm();
 calc();
 //Bottom Scroll
 bottomScroll();
-
-
-
 
 //Slider Carousel
 const carousel = new SliderCarousel({
