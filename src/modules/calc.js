@@ -8,11 +8,12 @@ const calc = () => {
             fourthClub = document.getElementById('m4'),
             priceTotal = document.getElementById('price-total'),
             cardMozaika = document.getElementById('card_leto_mozaika'),
-            promoCode = document.querySelector('.price-message > input');
+            promoCode = document.querySelector('.input-text');
 
         const inputPrice = document.createElement('INPUT');
         inputPrice.setAttribute('type', 'text');
         inputPrice.setAttribute('name', 'price');
+        inputPrice.classList.add('input-price');
         priceTotal.appendChild(inputPrice);
 
         inputPrice.value = 1999;
