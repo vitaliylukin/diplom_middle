@@ -8,7 +8,7 @@ const calc = () => {
             fourthClub = document.getElementById('m4'),
             priceTotal = document.getElementById('price-total'),
             cardMozaika = document.getElementById('card_leto_mozaika'),
-            promoCode = document.querySelector('.input-text');
+            promoCode = document.querySelector('.price-message.input-text > input');
 
         const inputPrice = document.createElement('INPUT');
         inputPrice.setAttribute('type', 'text');
