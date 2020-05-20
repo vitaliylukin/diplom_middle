@@ -1614,6 +1614,7 @@ nav.popup-menu .close-menu-btn img {
     background-color: #fff;
     padding-left: 25px;
     margin-bottom: 12px;
+    outline: none;
 }
 
 #card_order p.submit {
@@ -1640,7 +1641,11 @@ nav.popup-menu .close-menu-btn img {
 #card_order .price-message {
     font-weight: 500;
     font-size: 24px;
-    margin: 15px 0
+    margin: 15px 0;
+}
+
+#card_order .price-message:nth-child(2) {
+    margin: 15px;
 }
 
 .club {
@@ -1701,7 +1706,8 @@ footer #callback_footer_form-phone {
     border: 1px solid #b7b7b7;
     background-color: #fff;
     padding-left: 25px;
-    margin: 10px 0
+    margin: 10px 0;
+    outline: none;
 }
 
 footer {
@@ -2008,7 +2014,8 @@ footer .footer-bottom .right .socials .social-icon:hover a {
     border-radius: 22px;
     border: 1px solid #ffd11a;
     padding-left: 18px;
-    border: none
+    border: none;
+    outline: none;
 }
 
 .popup .form-content textarea {

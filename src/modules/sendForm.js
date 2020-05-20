@@ -6,7 +6,6 @@ const sendForm = () => {
     maskPhone('#callback_form-phone');
 
     const form = document.querySelectorAll('form'),
-        allInputs = document.querySelectorAll('form input'),
         popUpThanks = document.getElementById('thanks'),
         popUpCallback = document.getElementById('callback_form'),
         popUpVisit = document.getElementById('free_visit_form');
@@ -15,6 +14,12 @@ const sendForm = () => {
     const statusMessage = document.createElement('div');
     statusMessage.style.cssText = ` margin-top: 10px; color: #fff;`;
     statusMessage.textContent = 'Идет отправка...';
+
+    const outputData = () => {
+        form.forEach((elem) => {
+            elem.reset();
+        });
+    };
 
     //Success Message
     const successMessage = () => {
@@ -26,18 +31,14 @@ const sendForm = () => {
                 popUpThanks.style.display = 'none';
                 popUpCallback.style.display = 'none';
                 popUpVisit.style.display = 'none';
-                allInputs.forEach((elem) => {
-                    elem.value = '';
-                });
+                outputData();
             } else {
                 target = target.closest('.form-wrapper');
                 if (!target) {
                     popUpThanks.style.display = 'none';
                     popUpCallback.style.display = 'none';
                     popUpVisit.style.display = 'none';
-                    allInputs.forEach((elem) => {
-                        elem.value = '';
-                    });
+                    outputData();
                 }
             }
 
@@ -58,18 +59,14 @@ const sendForm = () => {
                 popUpThanks.style.display = 'none';
                 popUpCallback.style.display = 'none';
                 popUpVisit.style.display = 'none';
-                allInputs.forEach((elem) => {
-                    elem.value = '';
-                });
+                outputData();
             } else {
                 target = target.closest('.form-wrapper');
                 if (!target) {
                     popUpThanks.style.display = 'none';
                     popUpCallback.style.display = 'none';
                     popUpVisit.style.display = 'none';
-                    allInputs.forEach((elem) => {
-                        elem.value = '';
-                    });
+                    outputData();
                 }
             }
 
