@@ -8,10 +8,7 @@ const sendForm = () => {
     const form = document.querySelectorAll('form'),
         popUpThanks = document.getElementById('thanks'),
         popUpCallback = document.getElementById('callback_form'),
-        popUpVisit = document.getElementById('free_visit_form'),
-        inputPrice = document.querySelector('.input-price');
-
-    console.log(inputPrice);
+        popUpVisit = document.getElementById('free_visit_form');
 
     //Status Message
     const statusMessage = document.createElement('div');
